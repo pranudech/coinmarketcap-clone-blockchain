@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import Header from '../../components/header'
 import solana from '../../assets/solana.png'
 import Usd from '../../assets/svg/usd'
-// import Graph from '../../components/graph'
-// import Chat from '../../components/chat'
+import Graph from '../../components/Graph'
+import Chat from '../../components/Chat'
 import CMCpriceConverter from '../../components/PriceConverter'
 
 
@@ -67,7 +67,7 @@ const Currencies = () => {
                             </div>
                         </div>
                         <br />
-                        {/* <Graph /> */}
+                        <Graph />
                         <br />
                         <div className={styles.flexBetweenCenter}>
                             <div className='flex'>
@@ -99,7 +99,7 @@ const Currencies = () => {
                     </div>
 
                     <div className='pt-10 ml-5'>
-                        {/* <Chat /> */}
+                        <Chat />
                     </div>
                 </div>
             </main>
