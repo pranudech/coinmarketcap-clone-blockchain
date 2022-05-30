@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import Comment from "../assets/svg/comment"
 import Heart from "../assets/svg/heart"
 import MoreHorizontal from "../assets/svg/moreHorizontal"
