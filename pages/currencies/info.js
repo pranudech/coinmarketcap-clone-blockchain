@@ -4,6 +4,8 @@ import solana from '../../assets/solana.png'
 import Usd from '../../assets/svg/usd'
 // import Graph from '../../components/graph'
 // import Chat from '../../components/chat'
+import CMCpriceConverter from '../../components/PriceConverter'
+
 
 const styles = {
     activeTab: `p-1 px-2 mr-2 rounded-lg bg-[#171924]`,
@@ -85,7 +87,7 @@ const Currencies = () => {
                         </div>
                         <br />
                         <br />
-                        {/* <CMCpriceConverter
+                        <CMCpriceConverter
                             from={coinName}
                             fromSymbol={coinSymbol}
                             fromLogo={solana}
@@ -93,7 +95,7 @@ const Currencies = () => {
                             price={price}
                             to='United States Dollars'
                             toSymbol='USD'
-                        /> */}
+                        />
                     </div>
 
                     <div className='pt-10 ml-5'>
